@@ -1,0 +1,21 @@
+.calculator_keypad {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  mix-blend-mode: overlay;
+}
+.calculator_keypad button {
+  flex: 0 1 25%;
+  height: 70px;
+  color: #111;
+  font-size: 2em;
+  mix-blend-mode: overlay;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.calculator_keypad button.btn__col2 {
+  flex: 0 1 50%;
+}
+.calculator_keypad button.btn__operand {
+  background: rgba(255, 255, 255, 0.2);
+}

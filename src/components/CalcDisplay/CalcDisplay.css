@@ -1,0 +1,6 @@
+.calculator_display {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: right;
+  padding: 10px;
+  font-size: 4em;
+}
